@@ -21,8 +21,9 @@ function App() {
           <h5 className="text-gray-500 mb-2 flex">Github: <a href={githubUrl} className="text-blue-500 ml-2 mb-4">{githubUrl}</a></h5>
           <h5 className="text-gray-500 mb-2">About me</h5>
           <p className="text-xl text-gray-500 mb-4">
-            I'm person who love to code and learn new things.
+            Travelling and seeing the world with my mom,<br />  was a wonderful experience for me.
           </p>
+
         </div>
       </div>
       <footer className="w-full mt-20">
@@ -30,6 +31,10 @@ function App() {
           <div>
             <h5 className="text-gray-500 mb-2">Phone</h5>
             <p className="text-blue-500">{phone}</p>
+          </div>
+          <div>
+            <h5 className="text-gray-500 mb-2">Drop your message</h5>
+            <p className="text-blue-500">{email}</p>
           </div>
           <div>
             <h5 className="text-gray-500 mb-2">Drop your message</h5>
