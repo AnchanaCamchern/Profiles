@@ -12,13 +12,13 @@ function App() {
           <img
             src={imageUrl}
             alt="Profile"
-            className="w-1 h-2 object-cover rounded-full border-4 border-blue-200 mb-10 md:mb-0 md:mr-10"
+            className="w-60 h-50 object-cover rounded-full border-4 border-blue-200 mb-10 md:mb-0 md:mr-10 "
           /></div>
 
         <div>
           <h2 className="text-3xl font-bold text-gray-700 mb-4">{`My name is ${name}.`}</h2>
           <h5 className="text-gray-500 mb-2 flex">Discord: <p className="text-blue-500 ml-2 mb-4">{discordUsername}</p></h5>
-          <h5 className="text-gray-500 mb-2 flex">Github: <p className="text-blue-500 ml-2 mb-4">{githubUrl}</p></h5>
+          <h5 className="text-gray-500 mb-2 flex">Github: <a href={githubUrl} className="text-blue-500 ml-2 mb-4">{githubUrl}</a></h5>
           <h5 className="text-gray-500 mb-2">About me</h5>
           <p className="text-xl text-gray-500 mb-4">
             I'm person who love to code and learn new things.
